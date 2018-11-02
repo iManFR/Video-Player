@@ -17,6 +17,7 @@ player.$play = player.$controlBar.querySelector('.play-pause .play')
 player.$pause = player.$controlBar.querySelector('.play-pause .pause')
 player.$seek = player.$controlBar.querySelector('.seek')
 player.$fill = player.$seek.querySelector('.fill')
+player.$bubbleCursor = player.$fill.querySelector('.bubble-cursor')
 player.$videoDuration = player.$controlBar.querySelector('.video-duration p')
 player.$fullScreen = player.$controlBar.querySelector('.fullscreen i')
 player.$soundBar = player.$controlBar.querySelector('.sound-bar')
@@ -119,6 +120,8 @@ const loop = () => {
         const scale = player.$video.currentTime / player.$video.duration
         player.$fill.style.transform = `scaleX(${scale})`
         player.$fill.style.transformOrigin = `0`
+        //Reset cursor scale
+        player.$bubbleCursor.style.transform = `scaleX(${1/scale})`
     }
 }
 loop()
