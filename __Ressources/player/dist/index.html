@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/style.min.css">
+	<title>Player</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><button class="active">Vidéos</button></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="container">
+		<aside>
+			<div class="playlist">
+				<div class="coming">À venir</div>
+				<video class="temp" src="#"></video>
+				<div class="tracks">
+					<div class="track">
+						<div class="track-name"><span class="empty">Vous n'avez rien à venir...</span></div>
+					</div>
+				</div>
+				<label for="file"><i class="fa fa-plus" aria-hidden="true"></i></label>
+				<input id="file" class="import" type="file" accept="video/mp4">
+			</div>
+		</aside>
+		<div class="player--window">
+			<h1 class="media-name">Jamie XX — Gosh</h1>
+			<div class="player">
+				<video src="#" class="media"></video>
+				<div class="controls">
+					<div class="time-bar">
+						<div class="current">
+							<div class="grabber">
+								<div class="grabbing-zone"></div>
+							</div>
+						</div>
+					</div>
+					<div class="left-controls">
+						<div class="play-pause--container">
+							<div class="play-pause"></div>
+						</div>
+						<div class="time--container">
+							<div class="current-time">0:00</div>
+							/
+							<div class="total-time">0:00</div>
+						</div>
+						<div class="volume--container">
+							<div class="volume-icon"></div>
+							<div class="volume-bar">
+								<div class="current">
+									<div class="grabber">
+										<div class="grabbing-zone"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="right-controls">
+						<div class="fullscreen">
+							<i class="fa fa-expand" aria-hidden="true"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="assets/js/main.min.js"></script>
+</body>
+</html>

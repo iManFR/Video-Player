@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Video Player</title>
+    <meta name="Description" content="This is my first javascript video player." />
+    <meta name="keywords" content="video, player">
+    <meta name="author" content="Manolo Pecout">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/favicon.ico" type="image/ico">
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono|Source+Code+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito%7COpen+Sans:700,800" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="player-background">
+        <div class="player">
+            <video src="videos/breaking-bad.mp4" poster="images/bb-poster.jpg" preload="auto"></video>
+            <div class="top-bar">
+                <img src="images/logo.png" alt="logo">
+                <div class="account-info">
+                    <h2>Manolo Pecout</h2>
+                    <img src="images/profile-picture.jpg" alt="profile picture">
+                </div>
+            </div>
+            <div class="watching">
+                <h3>Your watching</h3>
+                <h1>BREAKING BAD</h1>
+                <h2>TRAILER</h2>
+            </div>
+            <div class="upnext">
+                <h3>Upnext</h3>
+                <div class="upnext-trailer trailer1">
+                    <img src="images/twd-icon.jpg" alt="The Walking Dead">
+                    <div class="upnext-info">
+                        <h1>THE WALKING DEAD</h1>
+                        <h2>TRAILER</h2>
+                    </div>
+                </div>
+                <div class="upnext-trailer trailer2">
+                    <img src="images/oitnb-icon.jpg" alt="Orange is the new black">
+                    <div class="upnext-info">
+                        <h1>ORANGE IS THE NEW BLACK</h1>
+                        <h2>TRAILER</h2>
+                    </div>
+                </div>
+                <div class="upnext-trailer trailer3">
+                    <img src="images/rm-icon.jpg" alt="Rick and morty">
+                    <div class="upnext-info">
+                        <h1>RICK AND MORTY</h1>
+                        <h2>TRAILER</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="control-bar">
+                <div class="play-pause">
+                    <i class="fas fa-play play"></i>
+                    <i class="fas fa-pause pause"></i>
+                </div>
+                <div class="progress-bar">
+                    <div class="seek">
+                        <div class="fill">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="video-duration">
+                    <p></p>
+                </div>
+                <div class="sound-control">
+                    <i class="fas fa-volume-up unmuted"></i>
+                    <i class="fas fa-volume-mute muted"></i>
+                    <div class="sound-bar">
+                        <div class="seek-sound">
+                            <div class="fill-sound"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fullscreen">
+                    <i class="fas fa-arrows-alt"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="scripts/app.js"></script>
+
+</html>

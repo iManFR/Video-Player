@@ -1,0 +1,25 @@
+- Corriger la barre en bas du player//
+- R�parer la video duration//
+- Faire la sound bar//
+- Mettre en forme les infos au hover//
+- Revoir le fullscreen//
+- Interface qui disparait quand la souris ne bouge plus//
+- Mute au clic sur le haut parleur + chnage icon//
+- Volume up / down avec les fleches//
+
+
+
+- Fix responsive
+- Faire la drag bar
+- Faire la preview et y ajouter le time
+- Ajouter une transistion sur le chagement de bouton
+- Possibilit� de changer de vid�o
+
+
+
+
+Features
+- Cursor pointer
+- Hover infos
+- Sound bar
+- Change Vid�o
