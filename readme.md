@@ -1,19 +1,19 @@
-##Project
+## Project
 
 Video Player using JavaScript Vanilla
 
 
-##Author
+## Author
 
 Manolo Pecout H2 G2 P2022
 
 
-##Programming languages ​​used
+## Programming languages ​​used
 
 HTML / SCSS / JavaScript
 
 
-##Features
+## Features
     - Controls: Play, Pause, Fullscreen, Sound, Timeline, 
     - Keybinds (see below)
     - Drag bar 
@@ -24,7 +24,7 @@ HTML / SCSS / JavaScript
     - Sound bar
 
 
-##Keybinds & Click events
+## Keybinds & Click events
 Space bar - Play/Pause
 F - Toggle Fullscreen
 Echap - Quit fullscreen
