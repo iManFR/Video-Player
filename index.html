@@ -19,7 +19,7 @@
 <body>
     <div class="player-background">
         <div class="player">
-            <video src="videos/breaking-bad.mp4" poster="images/bb-poster.jpg" preload="auto"></video>
+            <video preload="auto"></video>
             <div class="top-bar">
                 <img src="images/logo.png" alt="logo">
                 <div class="account-info">
@@ -29,7 +29,7 @@
             </div>
             <div class="watching">
                 <h3>Your watching</h3>
-                <h1>BREAKING BAD</h1>
+                <h1></h1>
                 <h2>TRAILER</h2>
             </div>
             <div class="upnext">
@@ -64,7 +64,9 @@
                 <div class="progress-bar">
                     <div class="seek">
                         <div class="fill">
-                            <div class="bubble-cursor"></div>
+                            <div class="bubble-cursor">
+                                <p class="current-time"></p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -88,7 +90,7 @@
             </div>
         </div>
     </div>
+    <script src="scripts/app.js"></script>
 </body>
-<script src="scripts/app.js"></script>
 
 </html>

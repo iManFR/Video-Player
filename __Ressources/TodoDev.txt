@@ -9,11 +9,11 @@
 
 
 
-- Fix responsive
-- Faire la drag bar
-- Faire la preview et y ajouter le time
-- Ajouter une transistion sur le chagement de bouton
-- Possibilit� de changer de vid�o
+- Fix responsive//
+- Faire la drag bar//
+- Faire la preview et y ajouter le time//
+- Possibilit� de changer de vid�o//
+- (Ajouter une transistion sur le chagement de bouton)
 
 
 
